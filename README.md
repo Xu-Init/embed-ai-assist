@@ -3,6 +3,14 @@
 嵌入式软件开发 AI 辅助开发框架：从原理图、MCU 数据手册、功能规格书，到代码生成、编译、
 固件合并、烧录、串口测试的全流程 Skill 编排。
 
+## GD32F503 开发入口
+
+- GD32F503V-EVAL：项目配置见 [projects/gd32f503vgt6/config.json](projects/gd32f503vgt6/config.json)。
+- GD32F503Cxx：预备方案见 [projects/gd32f503cxx/config.json](projects/gd32f503cxx/config.json)，
+  独立归档官方 C-START 原理图、例程和现有 C 工程，复用 F503/F50x 系列手册及 SDK。
+  完整型号、容量与板卡尚需确认，现有 C 工程的设备字段存在不一致，暂不可据此直接烧录；
+  资料分类与开发前置检查见 [projects/gd32f503cxx/docs/MATERIALS.md](projects/gd32f503cxx/docs/MATERIALS.md)。
+
 ## 目录结构
 
 - `skills/`：所有 AI Skill 的定义（每个 Skill 是一个独立目录）

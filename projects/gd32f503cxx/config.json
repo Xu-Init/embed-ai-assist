@@ -1,0 +1,17 @@
+{
+  "platform": "gd32f503cxx",
+  "project": {
+    "build_target": "App",
+    "arch_family": "cortex_m",
+    "inputs": {
+      "existing_project": "references/existing_project/GD32F50Cx_Project",
+      "demos": "references/demos/GD32F503C_START_Demo_Suites/Projects",
+      "sdk": "../../platforms/gd32f503vgt6/sdk/GD32F50x_Firmware_Library"
+    }
+  },
+  "datasheet_path": "platforms/gd32f503vgt6/datasheets/GD32F503xx_Datasheet_Rev0.9RC6.pdf",
+  "datasheet_secondary_path": "platforms/gd32f503vgt6/datasheets/GD32F50x_用户手册_Rev1.4.pdf",
+  "sdk_header_path": "platforms/gd32f503vgt6/sdk/GD32F50x_Firmware_Library/CMSIS/GD/GD32F50x/Include/gd32f50x.h",
+  "stdperiph_lib_path": "platforms/gd32f503vgt6/sdk/GD32F50x_Firmware_Library/GD32F50x_standard_peripheral",
+  "output_dir": "outputs/"
+}
